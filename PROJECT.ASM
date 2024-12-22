@@ -89,7 +89,7 @@ int 21h
 
 ;TAKE INPUT TO START
 mov ah,9
-lea dx,a19
+lea dx,m19
 int 21h
 mov ah,1
 int 21h
